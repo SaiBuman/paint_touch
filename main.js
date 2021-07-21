@@ -23,7 +23,7 @@ function mytouchstart(e) {
 canvas.addEventListener("touchmove", my_touchmove);
 
 function my_touchmove(e) {
-    console.log("my_touchMove");
+    console.log("my_touchmove");
     current_position_of_touch_x = e.touches[0].clientX - canvas.offsetLeft;
     current_position_of_touch_y = e.touches[0].clientY - canvas.offsetTop;
     ctx.beginPath();

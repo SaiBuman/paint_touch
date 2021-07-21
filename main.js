@@ -28,7 +28,7 @@ function my_touchmove(e) {
     current_position_of_touch_y = e.touches[0].clientY - canvas.offsetTop;
     ctx.beginPath();
     ctx.strokeStyle = color;
-    ctx.lineWidth = width_of_line;
+    ctx.lineWidth = line_width;
     console.log("Last position of x and y coordinates = ");
     console.log("x = " + last_position_of_x + "y = " + last_position_of_y);
     ctx.moveTo(last_position_of_x, last_position_of_y);
